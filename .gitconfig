@@ -1,17 +1,17 @@
 [alias]
-	br = branch
-	ci = commit
-	co = checkout
+  br = branch
+  ci = commit
+  co = checkout
   dc = diff --cached --color-words='[^[:space:]]'
-	df = diff --color-words='[^[:space:]]'
+  df = diff --color-words='[^[:space:]]'
   graph = log --graph --oneline --decorate=short --branches='*'
-	lg = log -p
-	sh = show --color-words='[^[:space:]]'
-	st = status -sb
+  lg = log -p
+  sh = show --color-words='[^[:space:]]'
+  st = status -sb
 
 [color]
-	branch = auto
-	diff = auto
-	status = auto
+  branch = auto
+  diff = auto
+  status = auto
   showbranch = auto
-	ui = true
+  ui = true
