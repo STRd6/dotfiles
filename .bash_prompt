@@ -1,0 +1,9 @@
+YELLOW="\[\033[0;33m\]"
+GRAY="\[\033[0;34m\]"
+RESET="\033[0;00m"
+
+if [ -z "$COMP_SYM" ]; then
+  COMP_SYM="♥"
+fi
+
+PS1="\n\! \[\`if [[ \$? = "0" ]]; then echo '\e[32m\h\e[0m'; else echo '\e[31m\h\e[0m' ; fi\`\]:\w$YELLOW"'`__git_ps1`'"$GRAY \@$RESET\n$COMP_SYM "
